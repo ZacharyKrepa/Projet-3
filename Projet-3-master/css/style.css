@@ -58,26 +58,33 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Header ******/
+/************************* HEADER *************************/
 
-
-.header{
+.headerbloc{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    height: 79px;
 }
 
-.linksheader ul{
-    display: flex;
-    justify-content: flex-end;
+.logobooki{
+    width: 70px;
+    height: auto;
 }
 
-.linksheader li{
+.logo{
+    padding-top: 25px;
+}
+
+.headerbloc li{
     list-style-type: none;
-
+    display: inline;
+    margin-left: 50px;
 }
 
-.linksheader li:hover{
-    border-bottom-color: #0065FC;
+.headerbloc li:hover{
+    border-top: 2px solid;
+    color:#0065FC;
+    padding-top: 22px;
 }
 
 
