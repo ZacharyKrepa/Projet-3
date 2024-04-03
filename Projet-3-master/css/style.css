@@ -87,6 +87,27 @@ a {
     padding-top: 22px;
 }
 
+/************************* Section *************************/
+
+
+/************SECTION FORMULAIRE DE RECHERCHE***************/
+
+.forme {
+    display: flex;
+    width: 1000px;
+    height: 60px;
+    
+}
+
+.logocarte {
+    background-color: #F2F2F2;
+    border-radius: 1rem 0 0 1rem;
+    ;
+}
+
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
